@@ -32,12 +32,6 @@ main {
     padding-top: 30px;
 }
 
-main section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-section .ilustracao {
+.ilustracao {
     width: 25rem;
 }
