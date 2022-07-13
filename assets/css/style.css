@@ -47,6 +47,10 @@ main form .container__input {
     display: flex;
 }
 
+.container__input .input-cidade {
+    margin-right: 20px;
+}
+
 .ilustracao {
     width: 25rem;
 }
