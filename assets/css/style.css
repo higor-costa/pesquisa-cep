@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;  
     color: var(--cor-secundaria);
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 main {
