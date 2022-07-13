@@ -43,6 +43,10 @@ main {
     color: var(--cor-secundaria);
 }
 
+main form .container__input {
+    display: flex;
+}
+
 .ilustracao {
     width: 25rem;
 }
