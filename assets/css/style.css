@@ -10,3 +10,9 @@
     --font-titulo: 'Bitter', serif;
     --cor-principal: #FB9C06;
 }
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
