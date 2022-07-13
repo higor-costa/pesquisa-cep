@@ -27,7 +27,6 @@ body {
 .cabecalho .cabecalho__titulo {
     font-family: var(--font-titulo);
     font-weight: 800;
-    margin-right: 10px;
 }
 
 .cabecalho .fa-location-dot {
