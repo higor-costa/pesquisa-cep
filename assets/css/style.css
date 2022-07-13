@@ -62,7 +62,7 @@ main form .container__input {
 }
 
 .form-btn {
-    width: 90%;
+    width: 100%;
     padding: 5px;
     background-color: var(--cor-secundaria);
     color: white;
