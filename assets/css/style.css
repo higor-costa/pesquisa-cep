@@ -29,6 +29,10 @@ body {
     font-weight: 800;
 }
 
+.cabecalho .fa-location-dot {
+    font-size: 2rem;
+}
+
 main {
     max-width: 1440px;
     display: flex;
