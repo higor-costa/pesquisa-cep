@@ -51,6 +51,10 @@ main form .container__input {
     margin-right: 20px;
 }
 
+.container__input .input-uf {
+    width: 3rem;
+}
+
 .ilustracao {
     width: 25rem;
 }
