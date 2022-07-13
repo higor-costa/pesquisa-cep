@@ -12,6 +12,10 @@
     --cor-secundaria: #fb9c06;
 }
 
+body {
+    background-color: var(--cor-principal);
+}
+
 .cabecalho {
     display: flex;
     align-items: center;
