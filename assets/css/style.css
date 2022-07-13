@@ -61,6 +61,10 @@ main form .container__input {
     width: 3rem;
 }
 
+.form-btn {
+    width: 90%;
+}    
+
 .ilustracao {
     width: 25rem;
 }
