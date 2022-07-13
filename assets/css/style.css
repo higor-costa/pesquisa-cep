@@ -66,6 +66,7 @@ main form .container__input {
     padding: 5px;
     background-color: var(--cor-secundaria);
     color: white;
+    border: none;
 }    
 
 .ilustracao {
