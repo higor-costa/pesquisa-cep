@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;  
     color: var(--cor-secundaria);
-    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .cabecalho .cabecalho__titulo {
