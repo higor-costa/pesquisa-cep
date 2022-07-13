@@ -67,6 +67,7 @@ main form .container__input {
     background-color: var(--cor-secundaria);
     color: white;
     border: none;
+    border-radius: 8px;
 }    
 
 .ilustracao {
