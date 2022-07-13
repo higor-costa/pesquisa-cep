@@ -66,6 +66,10 @@ main form .container__input {
     border-radius: 8px;
 }    
 
+.resultado-pesquisa {
+    font-size: 2rem;
+}
+
 .ilustracao {
     width: 40rem;
 }
