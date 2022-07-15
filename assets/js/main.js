@@ -32,4 +32,6 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
         $('#cidade').val('');
         $('#uf').val('');
         $('#rua').val('');
+
+        $('.resultado-pesquisa').css({display: "none"});
     }
