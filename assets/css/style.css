@@ -66,6 +66,7 @@ main form .container__input {
 
 form .container .form-control:focus {
     border-color: white;
+    box-shadow: none;
 }
 
 .form-btn {
