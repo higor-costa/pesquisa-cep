@@ -12,6 +12,6 @@ const btnPesquisar = document.querySelector('.form-btn')
         fetch(urlCep)
         .then(resposta => resposta.json())
         .then(json => {
-            
+            resultadoPesquisa(json)
         })
     })
