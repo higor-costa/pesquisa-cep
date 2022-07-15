@@ -81,6 +81,10 @@ form .container .form-control:focus {
     font-size: 2rem;
 }
 
+.resultado-pesquisa  .cidade, .cep {
+    color: var(--cor-secundaria);
+}
+
 .ilustracao {
     width: 40%;
 }
