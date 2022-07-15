@@ -9,4 +9,9 @@ const btnPesquisar = document.querySelector('.form-btn')
         const inputRua = document.querySelector('#rua').value
 
         const urlCep = `https://viacep.com.br/ws/${inputUf}/${inputCidade}/${inputRua}/json/`;
+        fetch(urlCep)
+        .then(resposta => resposta.json())
+        .then(json => {
+            
+        })
     })
