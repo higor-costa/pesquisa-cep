@@ -24,5 +24,6 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
 
     const btnLimpar = document.querySelector('#btn-limpar')
     .addEventListener('click', event => {
-        event.preventDefault(); 
+        event.preventDefault();
+        limpaCampos() 
     })    
