@@ -27,3 +27,7 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
         event.preventDefault();
         limpaCampos() 
     })    
+
+    function limpaCampos() {
+
+    }
