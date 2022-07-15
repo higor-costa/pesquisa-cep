@@ -93,4 +93,8 @@ form .container .form-control:focus {
     main {
         flex-direction: column-reverse;
     }
+
+    .resultado-pesquisa {
+        font-size: 1.5rem;
+    }
 }
