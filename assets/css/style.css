@@ -69,6 +69,12 @@ form .container .form-control:focus {
     box-shadow: none;
 }
 
+form .container-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .form-btn {
     width: 100%;
     background-color: var(--cor-secundaria);
