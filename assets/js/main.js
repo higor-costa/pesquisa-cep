@@ -6,4 +6,5 @@ const btnPesquisar = document.querySelector('.form-btn')
 
         const inputCidade = document.querySelector('#cidade').value
         const inputUf = document.querySelector('#uf').value
+        const inputRua = document.querySelector('#rua').value
     })
