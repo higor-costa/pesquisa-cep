@@ -98,3 +98,7 @@ form .container .form-control:focus {
         font-size: 1.5rem;
     }
 }
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    
+}
