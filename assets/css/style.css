@@ -89,6 +89,10 @@ form .container .form-control:focus {
     width: 40%;
 }
 
+.active {
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
     main {
         flex-direction: column-reverse;
