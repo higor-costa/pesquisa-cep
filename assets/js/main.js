@@ -19,4 +19,5 @@ const btnPesquisar = document.querySelector('.form-btn')
     function resultadoPesquisa(json) {
        $('.paragrafo').html(`Este é o CEP de <span class="cidade">${json[0].localidade}-${json[0].uf}</span>:`);
        $('.cep').html(json[0].cep);
+       $('.resultado-pesquisa').css({display: "block"});
     }
