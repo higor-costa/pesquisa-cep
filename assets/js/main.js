@@ -15,3 +15,7 @@ const btnPesquisar = document.querySelector('.form-btn')
             resultadoPesquisa(json)
         })
     })
+
+    function resultadoPesquisa(json) {
+       
+    }
