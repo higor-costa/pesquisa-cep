@@ -88,3 +88,7 @@ form .container .form-control:focus {
 .ilustracao {
     width: 40%;
 }
+
+@media screen and (max-width: 768px) {
+    
+}
