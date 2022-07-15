@@ -76,7 +76,7 @@ form .container-btn {
 }
 
 .form-btn {
-    width: 100%;
+    width: 45%;
     background-color: var(--cor-secundaria);
     color: white;
     border: none;
