@@ -56,7 +56,7 @@ form {
     align-items: center;
 }
 
-main form .container__input {
+form .container__input {
     display: flex;
 }
 
