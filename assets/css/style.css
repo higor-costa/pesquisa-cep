@@ -85,6 +85,7 @@ form .container-btn .btn {
 
 form .container-btn .btn:last-child {
     background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
 }
 
 .resultado-pesquisa {
