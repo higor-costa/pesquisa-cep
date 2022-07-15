@@ -60,7 +60,7 @@ form .container__input {
     display: flex;
 }
 
-.container__input .input-uf {
+form .container__input .input-uf {
     width: 3rem;
 }
 
