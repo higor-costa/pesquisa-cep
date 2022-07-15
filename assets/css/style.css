@@ -89,6 +89,11 @@ form .container-btn .btn:last-child {
     border: 1px solid var(--cor-secundaria);
 }
 
+form .container-btn .btn:last-child:hover {
+    color: white;
+    border-color: white;
+}
+
 .resultado-pesquisa {
     font-size: 2rem;
     display: none;
