@@ -93,6 +93,7 @@ form .container .form-control:focus {
     main {
         flex-direction: column-reverse;
         justify-content: center;
+        height: auto;
     }
 
     .resultado-pesquisa {
