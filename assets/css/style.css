@@ -79,6 +79,7 @@ form .container .form-control:focus {
 
 .resultado-pesquisa {
     font-size: 2rem;
+    display: none;
 }
 
 .resultado-pesquisa  .cidade, .cep {
