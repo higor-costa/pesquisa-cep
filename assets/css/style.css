@@ -64,6 +64,10 @@ main form .container__input {
     width: 3rem;
 }
 
+form .container .form-control:focus {
+    border-color: white;
+}
+
 .form-btn {
     width: 100%;
     background-color: var(--cor-secundaria);
