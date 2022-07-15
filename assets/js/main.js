@@ -29,5 +29,7 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
     })    
 
     function limpaCampos() {
-
+        $('#cidade').val('');
+        $('#uf').val('');
+        $('#rua').val('');
     }
