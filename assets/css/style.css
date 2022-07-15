@@ -83,6 +83,10 @@ form .container-btn .btn {
     border-radius: 8px;
 }    
 
+form .container-btn .btn:last-child {
+    background-color: var(--cor-principal);
+}
+
 .resultado-pesquisa {
     font-size: 2rem;
     display: none;
