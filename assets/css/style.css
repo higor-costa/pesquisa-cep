@@ -75,7 +75,7 @@ form .container-btn {
     justify-content: space-around;
 }
 
-.form-btn {
+form .container-btn .btn {
     width: 45%;
     background-color: var(--cor-secundaria);
     color: white;
