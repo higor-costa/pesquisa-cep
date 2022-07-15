@@ -1,6 +1,6 @@
 'use strict';
 
-const btnPesquisar = document.querySelector('.form-btn')
+const btnPesquisar = document.querySelector('#btn-pesquisar')
     .addEventListener('click', event => {
         event.preventDefault();
 
@@ -21,3 +21,5 @@ const btnPesquisar = document.querySelector('.form-btn')
        $('.cep').html(json[0].cep);
        $('.resultado-pesquisa').css({display: "block"});
     }
+
+    const btnLimpar = document.querySelector('#btn-limpar')
