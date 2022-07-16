@@ -20,13 +20,15 @@
             <form method="get">
                 <div class="container p-0">
                     <div class="container__input mb-2">
-                        <div class="input-cidade me-3">
-                            <label class="form-label" for="cidade">Cidade</label>
-                            <input class="form-control" type="text" id="cidade" required>
-                        </div>
-                        <div class="input-uf text-center">
-                            <label class="form-label" for="uf">UF</label>
-                            <input class="form-control" type="text" id="uf" required maxlength="2">
+                        <div class="container__cidade-uf">
+                            <div class="input-cidade me-3">
+                                <label class="form-label" for="cidade">Cidade</label>
+                                <input class="form-control" type="text" id="cidade" required>
+                            </div>
+                            <div class="input-uf text-center">
+                                <label class="form-label" for="uf">UF</label>
+                                <input class="form-control" type="text" id="uf" required maxlength="2">
+                            </div>
                         </div>
                         <div class="mensagem-erro">
                             <small class="input-erro">Por favor, informe o nome da cidade!</small>
