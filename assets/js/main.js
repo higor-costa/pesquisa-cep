@@ -20,7 +20,9 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
     })
 
 function checaInputs(cidade, uf, rua) {
-    
+    if (cidade == '') {
+        $('.erro-cidade').css({display: 'block'});
+     }
 }
 
 function resultadoPesquisa(json) {
