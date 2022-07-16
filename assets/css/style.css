@@ -61,6 +61,10 @@ form .container__input {
     flex-direction: column;
 }
 
+form .container__cidade-uf {
+    display: flex;
+}
+
 form .container__input .input-uf {
     width: 3rem;
 }
