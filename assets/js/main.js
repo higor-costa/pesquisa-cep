@@ -14,6 +14,7 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
             .then(json => {
                 resultadoPesquisa(json)
             })
+            .catch(erro => console.log('Erro ao pesquisar dados!', erro))
     })
 
 function resultadoPesquisa(json) {
