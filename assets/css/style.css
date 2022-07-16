@@ -74,7 +74,7 @@ form .container .form-control:focus {
     box-shadow: none;
 }
 
-form .input-erro {
+form .erro-cidade, .erro-uf, .erro-rua {
     display: none;
 }
 
