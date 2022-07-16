@@ -24,6 +24,8 @@ function checaInputs(cidade, uf, rua) {
         $('.erro-cidade').css({display: 'block'});
     } else if (uf == '') {
         $('.erro-uf').css({display: 'block'});
+    } else if (rua == '') {
+        $('.erro-rua').css({display: 'block'});
     }
 }
 
