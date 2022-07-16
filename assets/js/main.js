@@ -8,6 +8,8 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
         const inputUf = document.querySelector('#uf').value
         const inputRua = document.querySelector('#rua').value
 
+        checaInputs(inputCidade, inputUf, inputRua)
+
         const urlCep = `https://viacep.com.br/ws/${inputUf}/${inputCidade}/${inputRua}/json/`;
         fetch(urlCep)
             .then(resposta => resposta.json())
