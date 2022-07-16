@@ -19,6 +19,10 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
             .catch(erro => console.log('Erro ao pesquisar dados!', erro))
     })
 
+function checaInputs(cidade, uf, rua) {
+    
+}
+
 function resultadoPesquisa(json) {
     $('.paragrafo').html(`Este é o CEP da <span class="rua">${json[0].logradouro}</span>:`);
     $('.cep').html(json[0].cep);
