@@ -69,6 +69,10 @@ form .container .form-control:focus {
     box-shadow: none;
 }
 
+form .input-erro {
+    display: none;
+}
+
 form .container-btn {
     width: 100%;
     display: flex;
