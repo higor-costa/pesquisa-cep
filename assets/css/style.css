@@ -72,7 +72,7 @@ form .container .form-control:focus {
 form .container-btn {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 form .container-btn .btn {
