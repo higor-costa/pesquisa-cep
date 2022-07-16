@@ -58,6 +58,7 @@ form {
 
 form .container__input {
     display: flex;
+    flex-direction: column;
 }
 
 form .container__input .input-uf {
