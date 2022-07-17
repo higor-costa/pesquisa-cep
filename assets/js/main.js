@@ -40,6 +40,7 @@ const btnLimpar = document.querySelector('#btn-limpar')
     .addEventListener('click', event => {
         event.preventDefault();
         limpaCampos()
+        limpaMensagensErro()
     })
 
 function limpaCampos() {
