@@ -43,6 +43,10 @@ const btnLimpar = document.querySelector('#btn-limpar')
         limpaMensagensErro()
     })
 
+function limpaMensagensErro() {
+
+}
+
 function limpaCampos() {
     $('#cidade').val('');
     $('#uf').val('');
