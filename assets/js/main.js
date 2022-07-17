@@ -22,7 +22,9 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
 function checaInputs(cidade, uf, rua) {
     if (cidade == '') {
         $('.erro-cidade').css({display: 'block'});
-    } else if (uf == '') {
+    } 
+    else if (uf == '' && $('.erro-cidade').css({display: 'block'})) {
+        $('.erro-cidade').css({display: 'none'})
         $('.erro-uf').css({display: 'block'});
     } 
     else if (rua == '') {
