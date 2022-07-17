@@ -20,7 +20,11 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
     })
 
 function checaInputs(cidade, uf, rua) {
-    if (cidade == '') {
+    if (cidade == '' && uf == '' && rua == '') {
+        $('.erro').css({display: 'block'});
+        $('.erro-rua').css({display: 'block'});
+    }
+    else if (cidade == '') {
         $('.erro-cidade').css({display: 'block'});
     } 
     else if (uf == '' && $('.erro-cidade').css({display: 'block'})) {
