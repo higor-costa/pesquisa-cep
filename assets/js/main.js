@@ -33,7 +33,7 @@ function checaInputs(cidade, uf, rua) {
     } 
     else if (rua == '') {
          $('.erro-rua').css({display: 'block'});
-    }
+    } 
 }
 
 function resultadoPesquisa(json) {
