@@ -91,6 +91,7 @@ form .container-btn .btn {
     color: white;
     border: none;
     border-radius: 8px;
+    transition:.5s;
 }    
 
 form .container-btn .btn:last-child {
