@@ -51,6 +51,7 @@ section {
 }
 
 form {
+    width: 17rem;
     display: flex;
     flex-direction: column;
     align-items: center;
