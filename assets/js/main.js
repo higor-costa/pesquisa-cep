@@ -35,6 +35,12 @@ function checaInputs(cidade, uf, rua) {
         $('.erro').css({ display: 'block' });
         $('.erro-rua').css({ display: 'block' });
     }
+    else if (cidade == '' && uf == '' && rua != '') {
+        $('.erro-uf').css({ display: 'none' });
+        $('.erro-cidade').css({ display: 'none' });
+        $('.erro-rua').css({ display: 'none' });
+        $('.erro').css({ display: 'block' });
+    }
 }
 
 function resultadoPesquisa(json) {
