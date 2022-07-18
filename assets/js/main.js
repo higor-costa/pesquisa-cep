@@ -30,19 +30,11 @@ function consomeApi(uf, cidade, rua) {
 
 function checaInputs(cidade, uf, rua) {
     if (cidade == '' && uf == '' && rua == '') {
-        $('.erro').css({display: 'block'});
-        $('.erro-rua').css({display: 'block'});
+        $('.erro-uf').css({ display: 'none' });
+        $('.erro-cidade').css({ display: 'none' });
+        $('.erro').css({ display: 'block' });
+        $('.erro-rua').css({ display: 'block' });
     }
-    else if (cidade == '') {
-        $('.erro-cidade').css({display: 'block'});
-    } 
-    else if (uf == '' && $('.erro-cidade').css({display: 'block'})) {
-        $('.erro-cidade').css({display: 'none'})
-        $('.erro-uf').css({display: 'block'});
-    } 
-    else if (rua == '') {
-         $('.erro-rua').css({display: 'block'});
-    } 
 }
 
 function resultadoPesquisa(json) {
