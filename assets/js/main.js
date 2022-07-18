@@ -88,7 +88,7 @@ const btnLimpar = document.querySelector('#btn-limpar')
     })
 
 function limpaMensagensErro() {
-    $('small').css({display: 'none'})
+    $('small').css({ display: 'none' })
 }
 
 function limpaCampos() {
