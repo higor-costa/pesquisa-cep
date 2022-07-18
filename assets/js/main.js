@@ -10,6 +10,11 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
 
         checaInputs(inputCidade, inputUf, inputRua)
 
+        if (inputCidade == '' || inputUf == '' || inputRua == '') {
+            console.log('Inputs vazios!')
+            return
+        }
+
         const urlCep = `https://viacep.com.br/ws/${inputUf}/${inputCidade}/${inputRua}/json/`;
         fetch(urlCep)
             .then(resposta => resposta.json())
