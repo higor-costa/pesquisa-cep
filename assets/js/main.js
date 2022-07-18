@@ -15,13 +15,7 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
             return
         }
 
-        const urlCep = `https://viacep.com.br/ws/${inputUf}/${inputCidade}/${inputRua}/json/`;
-        fetch(urlCep)
-            .then(resposta => resposta.json())
-            .then(json => {
-                resultadoPesquisa(json)
-            })
-            .catch(erro => console.log('Erro ao pesquisar dados!', erro))
+        consomeApi(inputUf, inputCidade, inputRua)
     })
 
 function checaInputs(cidade, uf, rua) {
