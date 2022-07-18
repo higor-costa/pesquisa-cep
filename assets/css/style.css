@@ -94,6 +94,11 @@ form .container-btn .btn {
     transition:.5s;
 }    
 
+form .container-btn #btn-pesquisar:hover {
+    background: #333242;
+    border: 1px solid white;
+}
+
 form .container-btn .btn:last-child {
     background-color: var(--cor-principal);
     color: var(--cor-secundaria);
