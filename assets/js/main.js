@@ -92,9 +92,8 @@ function limpaMensagensErro() {
 }
 
 function limpaCampos() {
-    $('#cidade').val('');
-    $('#uf').val('');
-    $('#rua').val('');
+    const inputs = document.querySelectorAll('.form-control')
+    inputs.forEach(input => input.value = '')
 
     $('.resultado-pesquisa').css({ display: "none" });
 }
