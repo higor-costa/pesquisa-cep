@@ -23,7 +23,7 @@ function consomeApi(uf, cidade, rua) {
     fetch(urlCep)
         .then(resposta => resposta.json())
         .then(json => {
-            resultadoPesquisa(json)
+            resultadoPesquisa(json, rua)
         })
         .catch(erro => console.log('Erro ao pesquisar dados!', erro))
 }
