@@ -77,6 +77,8 @@ function resultadoPesquisa(json, nomeRua) {
     limpaMensagensErro()
     if(json[0].logradouro == '') {
         $('.paragrafo').html(`Este é o CEP da <span class="rua">${nomeRua}</span>:`);
+    } else {
+        $('.paragrafo').html(`Este é o CEP da <span class="rua">${json[0].logradouro}</span>:`);
     }
     $('.cep').html(json[0].cep);
     $('.resultado-pesquisa').css({ display: "block" });
