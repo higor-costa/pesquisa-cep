@@ -73,7 +73,7 @@ function checaInputs(cidade, uf, rua) {
     }
 }
 
-function resultadoPesquisa(json) {
+function resultadoPesquisa(json, nomeRua) {
     limpaMensagensErro()
     $('.paragrafo').html(`Este é o CEP da <span class="rua">${json[0].logradouro}</span>:`);
     $('.cep').html(json[0].cep);
