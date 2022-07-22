@@ -17,16 +17,22 @@ O **Busque CEP** possui um nome que descreve a sua única função. É um site p
 
 ### Mobile
 
-![](/src/images/screenshots/captura-mobile.png)
+![Captura de tela - mobile](/assets/img/screenshots/captura-mobile.png)
 
 ### Desktop
 
-![](/src/images/screenshots/captura-desktop.png)
+![Captura de tela - desktop](/assets/img/screenshots/captura-desktop.png)
 
 
 ## Funcionalidade do projeto:
 
 - `Funcionalidade`: Pesquisa de CEP
+
+## Como utilizar
+
+Para obter o resultado da pesquisa basta preencher todos os campos e clicar no botão 'Pesquisar'. Caso deseje fazer uma nova pesquisa e não queira limpar campo por campo, você pode clicar no botão 'Limpar' para limpar todos de uma só vez.
+
+![Gif do site em funcionamento](/assets/video/busque-cep.gif)
 
 ### Links
 
