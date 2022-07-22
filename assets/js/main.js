@@ -1,7 +1,7 @@
 'use strict';
 
-const btnPesquisar = document.querySelector('#btn-pesquisar')
-    .addEventListener('click', event => {
+document.querySelector('form')
+    .addEventListener('submit', event => {
         event.preventDefault();
     })
 
