@@ -4,6 +4,8 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
     .addEventListener('click', event => {
         event.preventDefault();
 
+const btnPesquisar = document.querySelector('#btn-pesquisar')
+    .addEventListener('click', valorInputs => {
         const inputCidade = document.querySelector('#cidade').value
         const inputUf = document.querySelector('#uf').value
         const inputRua = document.querySelector('#rua').value
