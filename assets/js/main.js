@@ -8,8 +8,6 @@ const btnPesquisar = document.querySelector('#btn-pesquisar')
         const inputUf = document.querySelector('#uf').value
         const inputRua = document.querySelector('#rua').value
 
-        checaInputs(inputCidade, inputUf, inputRua)
-
         if (inputCidade == '' || inputUf == '' || inputRua == '') {
             console.log('Inputs vazios!')
             return
