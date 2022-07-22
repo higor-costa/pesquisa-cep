@@ -114,10 +114,6 @@ form .container-btn .btn:last-child:hover {
     width: 40%;
 }
 
-.active {
-    display: none;
-}
-
 @media screen and (max-width: 768px) {
     main {
         flex-direction: column-reverse;
