@@ -28,7 +28,7 @@ function consomeApi(uf, cidade, rua) {
 
 function resultadoPesquisa(json, nomeRua) {
     limpaMensagensErro()
-    if(json[0].logradouro == '') {
+    if (json[0].logradouro == '') {
         $('.paragrafo').html(`Este é o CEP da <span class="rua">${nomeRua}</span>:`);
     } else {
         $('.paragrafo').html(`Este é o CEP da <span class="rua">${json[0].logradouro}</span>:`);
