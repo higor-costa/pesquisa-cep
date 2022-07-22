@@ -29,7 +29,9 @@ O **Busque CEP** possui um nome que descreve a sua única função. É um site p
 - `Funcionalidade`: Pesquisa de CEP
 
 ## Como utilizar
-Para obter o resultado da pesquisa basta preencher todos os campos.
+
+Para obter o resultado da pesquisa basta preencher todos os campos e clicar no botão 'Pesquisar'. Caso deseje fazer uma nova pesquisa e não queira limpar campo por campo, você pode clicar no botão 'Limpar' para limpar todos de uma só vez.
+
 ![Gif do site em funcionamento](/assets/video/busque-cep.gif)
 
 ### Links
