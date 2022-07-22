@@ -17,11 +17,11 @@ O **Busque CEP** possui um nome que descreve a sua única função. É um site p
 
 ### Mobile
 
-![Captura de tela - mobile](/assets/img/screenshots/captura-mobile.png)
+![Captura de tela - mobile](/assets/img/screenshot/mobile.png)
 
 ### Desktop
 
-![Captura de tela - desktop](/assets/img/screenshots/captura-desktop.png)
+![Captura de tela - desktop](/assets/img/screenshot/desktop.png)
 
 
 ## Funcionalidade do projeto:
