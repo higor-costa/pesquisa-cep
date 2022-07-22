@@ -70,10 +70,6 @@ form .container .form-control:focus {
     box-shadow: none;
 }
 
-form .erro-cidade, .erro-uf, .erro-rua, .erro {
-    display: none;
-}
-
 form .container-btn {
     width: 100%;
     display: flex;
