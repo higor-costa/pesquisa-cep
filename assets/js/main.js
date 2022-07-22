@@ -3,6 +3,7 @@
 const btnPesquisar = document.querySelector('#btn-pesquisar')
     .addEventListener('click', event => {
         event.preventDefault();
+    })
 
 const btnPesquisar = document.querySelector('#btn-pesquisar')
     .addEventListener('click', valorInputs => {
